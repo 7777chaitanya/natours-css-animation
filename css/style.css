@@ -8,16 +8,14 @@ Dark green: #28b485
 */
 
 *,
-*::before
-*::after {
+*::before *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 62.5%; /* default font-size is 16px, here it is 10px */
-  
 }
 
 /* now we will change all the pixels to rem & 1rem=10px */
