@@ -1,0 +1,36 @@
+/* now we will change all the pixels to rem & 1rem=10px */
+body {
+    font-family: sans-serif, "Lato";
+    /* font-size: 16px; */
+    font-weight: 400;
+    line-height: 1.7;
+    color: $gray-color-dark;
+    padding: 3rem;
+  }
+
+.heading-primary {
+    color: $white-color;
+    text-transform: uppercase;
+  
+    &--main {
+      display: block;
+      font-size: 6rem;
+      font-weight: 400;
+      letter-spacing: 3.5rem;
+      animation-name: moveInLeft;
+      animation-duration: 1.5s;
+      /* animation-iteration-count: 3; */
+      animation-timing-function: ease-out;
+      backface-visibility: hidden;
+    }
+  
+    &--sub {
+      display: block;
+      font-size: 2rem;
+      letter-spacing: 1.7rem;
+      font-weight: 400;
+      animation: moveInRight 1.5s ease-out;
+      backface-visibility: hidden;
+      margin-bottom: 2rem;
+    }
+  }
